@@ -35,14 +35,14 @@ public class Switch {
                 break;
             case "**":
                 res = num1 ^ num2;
-                System.out.println("Resultado da multiplicação: " + res);
+                System.out.println("Resultado da exponenciação: " + res);
                 break;
             case "%":
                 res = num1 % num2;
-                System.out.println("Resultado da multiplicação: " + res);
+                System.out.println("Resultado do modulo: " + res);
                 break;
             default:
-                System.out.println("Operção não suportada.");
+                System.out.println("Operação não suportada.");
                 break;
         }
 

@@ -21,7 +21,7 @@ public class ImprimirPorExtenso {
         lista.add("Dez");
 
         System.out.println("------ Nome do valor por extenso -----");
-        System.out.println("Digite um numero: ");
+        System.out.println("Digite um numero de 0 a 10: ");
         int num = scanner.nextInt();
 
         if (num >= 0 && num < lista.size()){

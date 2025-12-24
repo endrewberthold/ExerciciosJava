@@ -2,10 +2,9 @@ package Exercicios;
 
 public class Teste {
     public static void main(String[] args){
-        int[] array = new int[50];
-        for(int i = 0; i<array.length; i++){
-            array[i] = i + 1;
-            System.out.print(array[i] + " ");
-        }
+        double numDouble = 45.32;
+        int numInt = (int)numDouble;
+
+        System.out.println(numInt);
     }
 }

@@ -33,7 +33,7 @@ public class CalcularMedia {
         System.out.println("Nota: " + notas);
         double soma = 0;
         for (double n : notas){
-            soma +=  n;
+            soma += n;
         }
 
         int index = notas.size();
